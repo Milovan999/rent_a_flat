@@ -1,8 +1,8 @@
 "use strict";
 
-// window.onload = function () {
-//   alert("Welcome to our website!");
-// };
+window.onload = function () {
+  alert("Welcome to our website!");
+};
 
 const images = [
   "img/1.jpg",
