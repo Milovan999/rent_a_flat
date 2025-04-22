@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rent apartment</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#welcomeContent">Home</a></li>
+          <li><a href="#flat">Our Flat</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="introduction" class="section">
+      <h1>Welcome!</h1>
+      <p>
+        This website is dedicated to renting an apartment located in Novi Sad.
+        You’ll find all the important information about the apartment, including
+        photos, features, price, and how to contact us.
+      </p>
+    </div>
+
+    <div id="flat" class="section flat-section">
+      <div class="flat-description">
+        <h2>Introduction</h2>
+        <p>
+          This flat is situated in the main street Bulevar Oslobodjenja 87 of
+          Novi Sad.
+        </p>
+      </div>
+      <br />
+      <div class="flat-description">
+        <h2>Description about flat</h2>
+        <p>
+          It is cosy 45-square-metre flat on the 1st floor of new building. It
+          has one small living room with medium table and corner set. This flat
+          has a air condition and floor heating. In the kitchen
+        </p>
+      </div>
+      <div class="flat-description">
+        <h2>Decription about neighbourhood</h2>
+        <p>
+          In this district is very crowded and you can hearing a lot of people
+          and cars. Near the flat you have a lot of bars and restaurant. It's
+          ten minutes away from a main train and bus station.
+        </p>
+      </div>
+      <br />
+
+      <div class="flat-description">
+        <h2>Suitable for...</h2>
+        <p>
+          The flat is perfect for a couple who would like to visit a lot of bars
+          and restaurant
+        </p>
+      </div>
+      <br />
+
+      <div class="flat-slider">
+        <img
+          id="slider-image"
+          src="img/1.jpg"
+          alt="Flat Image"
+          onclick="openModal()"
+        />
+        <div class="slider-buttons">
+          <button onclick="prevImage()">⟨</button>
+          <button onclick="nextImage()">⟩</button>
+        </div>
+      </div>
+
+      <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage" />
+      </div>
+    </div>
+
+    <footer style="color: white; text-align: center">
+      &copy;Copyright Milovan Grbic 2025
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
