@@ -15,3 +15,7 @@ This is how it going.
 ## Fourth step:
 
 --When you extracted this file, you have hole project for rent the flat on your computer
+
+## Fifth and last step:
+
+--Just run in browser file index.html
