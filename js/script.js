@@ -48,3 +48,9 @@ window.onclick = function (event) {
     modal.style.display = "none";
   }
 };
+
+/**
+ *
+ * Author: Milovan Grbic 2025
+ *
+ */
