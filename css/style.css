@@ -179,6 +179,12 @@ nav ul li a:hover {
   font-weight: bold;
   cursor: pointer;
 }
+.flat-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
 
 @media (max-width: 768px) {
   nav ul {
@@ -196,5 +202,8 @@ nav ul li a:hover {
 
   .flat-slider img {
     max-width: 100%;
+  }
+  .flat-grid {
+    grid-template-columns: 1fr;
   }
 }
